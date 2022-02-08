@@ -19,12 +19,16 @@
     "cypress": "^9.4.1"
   },
   "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-file-upload": "^5.0.8",
     "cypress-multi-reporters": "^1.5.0",
     "mocha": "^9.2.0",
     "mochawesome": "^7.0.1",
     "mochawesome-merge": "^4.2.1",
     "mochawesome-report-generator": "^6.0.1"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinition": true
   }
 }
-
